@@ -8,10 +8,13 @@
     /> -->
 
     <AboutSection />
-    <MotivateSection text="WHERE SCIENCE MEETS THE FUTURE." image="skyline" />
-    <EventSection />
-    <SpeakersGrid />
-    <RegisterNow />
+    <LazyMotivateSection
+      text="WHERE SCIENCE MEETS THE FUTURE."
+      image="skyline"
+    />
+    <LazyEventSection />
+    <LazySpeakersGrid />
+    <LazyRegisterNow />
   </main>
   <Footer />
 </template>
