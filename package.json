@@ -11,7 +11,10 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
     "nuxt": "^3.8.0",
+    "postcss": "^8.4.31",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
@@ -19,5 +22,15 @@
     "@nuxt/content": "^2.9.0",
     "fitty": "^2.3.7",
     "gsap": "^3.12.2"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "last 2 versions",
+    "not dead",
+    "> 0.2%",
+    "not ie 11",
+    "not op_mini all",
+    "iOS >= 8",
+    "Safari >= 8"
+  ]
 }

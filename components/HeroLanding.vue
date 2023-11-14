@@ -43,15 +43,15 @@ onMounted(() => {
         <h3 class="booming-voice fitty" ref="DecemberRef">December</h3>
       </div>
     </inner-column>
-    <piture class="float quadrant">
+    <picture class="float quadrant">
       <img src="/images/bangalore-building.png" alt="" />
-    </piture>
-    <piture class="float square">
+    </picture>
+    <picture class="float square">
       <StarDecoration />
-    </piture>
-    <piture class="float vertical">
+    </picture>
+    <picture class="float vertical">
       <img src="/images/bangalore-vertical.jpg" alt="" />
-    </piture>
+    </picture>
   </section>
 </template>
 

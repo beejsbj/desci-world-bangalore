@@ -14,4 +14,11 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => tag.includes("-"),
     },
   },
+
+  postcss: {
+    plugins: {
+      cssnano: {},
+      autoprefixer: {},
+    },
+  },
 });
