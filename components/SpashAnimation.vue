@@ -85,7 +85,7 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="postcss">
 .wrapper {
   position: fixed;
   background: var(--black);

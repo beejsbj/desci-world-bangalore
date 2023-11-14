@@ -55,7 +55,7 @@ onMounted(() => {
   </section>
 </template>
 
-<style scoped>
+<style scoped lang="postcss">
 section {
   background: var(--black);
   color: var(--white);
